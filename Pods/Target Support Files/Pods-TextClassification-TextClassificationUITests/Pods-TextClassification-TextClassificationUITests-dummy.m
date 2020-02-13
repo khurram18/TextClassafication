@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TextClassification_TextClassificationUITests : NSObject
+@end
+@implementation PodsDummy_Pods_TextClassification_TextClassificationUITests
+@end
