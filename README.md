@@ -55,3 +55,5 @@ demo application.
 
 ### Additional Note
 _Please do not delete the empty reference to the .tflite file after you clone the repo and open the project. The model reference will be fixed as the model file is downloaded when the application is built and run for the first time.
+
+The pull request to add this example to official tensorflow examples repository is [here](https://github.com/tensorflow/examples/pull/146)
