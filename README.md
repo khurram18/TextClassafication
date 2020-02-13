@@ -52,6 +52,8 @@ demo application.
     open TextClassification.xcworkspace
     ```
     This launches Xcode and opens the `TextClassification` project.
+    
+![](screenshot.png)
 
 ### Additional Note
 _Please do not delete the empty reference to the .tflite file after you clone the repo and open the project. The model reference will be fixed as the model file is downloaded when the application is built and run for the first time.
