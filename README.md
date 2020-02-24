@@ -7,10 +7,6 @@ with TensorFlow 2.0 (Keras API), and trained on IMDB dataset. The demo app
 processes input movie review texts, and classifies its sentiment into negative
 (0) or positive (1).
 
-These instructions walk you through the steps to train and test a simple text
-classification model, export them to TensorFlow Lite format and deploy on a
-mobile app.
-
 ## Model
 
 See [Text Classification with Movie Reviews](https://www.tensorflow.org/tutorials/keras/basic_text_classification)
@@ -29,24 +25,19 @@ Follow the steps below to build and run the sample iOS app.
 
 ## Build and run
 
-1. Clone the TensorFlow examples GitHub repository to your computer to get the
-demo application.
+1. Clone the repository to your computer to get the demo application.
 
     ```
-    git clone https://github.com/tensorflow/examples
+    git clone https://github.com/khurram18/TextClassafication.git
     ```
 
-1. Install the pod to generate the workspace file:
+1. Navigate to the cloned directory
 
     ```
-    cd examples/lite/examples/text_classification/ios && pod install
+    cd TextClassafication
     ```
-    Note: If you have installed this pod before and that command doesn't work,
-    try `pod update`.
-    At the end of this step you should have a directory called
-    `TextClassification.xcworkspace`.
 
-1. Open the project in Xcode with the following command:
+1. Open the `TextClassification.xcworkspace` in Xcode either by double clicking on it or using below command
 
     ```
     open TextClassification.xcworkspace
