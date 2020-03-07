@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
   
-private var textClassificationClient: TextClassificationnClient?
+private var textClassificationClient: TextClassificationClient?
   
 @IBOutlet weak var scrollView: UIScrollView!
 @IBOutlet weak var textView: UITextView!
@@ -29,7 +29,7 @@ override func viewDidLoad() {
 }
   
 private func loadClient() {
-  textClassificationClient = TextClassificationnClient(modelFileInfo: modelFileInfo, labelsFileInfo: labelsFileInfo, vocabFileInfo: vocabFileInfo)
+  textClassificationClient = TextClassificationClient(modelFileInfo: modelFileInfo, labelsFileInfo: labelsFileInfo, vocabFileInfo: vocabFileInfo)
 }
   
 } // class ViewController

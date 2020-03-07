@@ -21,7 +21,7 @@ struct Result {
   let title: String
   let confidence: Float
 }
-final class TextClassificationnClient {
+final class TextClassificationClient {
 // The maximum length of an input sentence.
 private let sentenceLength = 256
 private let characterSet = CharacterSet(charactersIn: " ,.!?")
