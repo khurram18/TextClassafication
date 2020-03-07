@@ -11,10 +11,10 @@ import XCTest
 
 class TextClassificationTests: XCTestCase {
 
-private var client: TextClassificationnClient?
+private var client: TextClassificationClient?
 
 override func setUp() {
-  client = TextClassificationnClient(modelFileInfo: modelFileInfo, labelsFileInfo: labelsFileInfo, vocabFileInfo: vocabFileInfo)
+  client = TextClassificationClient(modelFileInfo: modelFileInfo, labelsFileInfo: labelsFileInfo, vocabFileInfo: vocabFileInfo)
 }
 
 func testLoadModel() {
